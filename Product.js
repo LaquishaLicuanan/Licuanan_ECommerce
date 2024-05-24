@@ -1,25 +1,25 @@
 const product = [
     {
         id: 0,
-        images: "Black.jpg",
+        images: 'Black.jpg',
         title: 'IPhone 13 Pro Max Slim Black Case',
         price: 200,
     },
     {
         id: 1,
-        images: "White.jpg",
+        images: 'White.jpg',
         title: 'IPhone 13 Pro Max Slim White Case',
         price: 150,
     },
     {
         id: 2,
-        images: "Green.jpg",
+        images: 'Green.jpg',
         title: 'IPhone 13 Pro Max Slim Green Case',
         price: 200,
     },
     {
         id: 3,
-        images: "Purple.jpg",
+        images: 'Purple.jpg',
         title: 'IPhone 13 Pro Max Slim Purple Case',
         price: 200,
     }
