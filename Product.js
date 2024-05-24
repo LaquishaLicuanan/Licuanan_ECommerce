@@ -25,12 +25,11 @@ const product = [
     }
 ];
 
-
 document.getElementById('root').innerHTML = product.map((item, index) => {
     return `
         <div class='box'>
             <div class='img-box'>
-                <img class='images' src='${item.image}'></img>
+                <img class='images' src='${item.images}'></img>
             </div>
             <div class='bottom'>
                 <p>${item.title}</p>
@@ -70,7 +69,7 @@ function displaycart() {
             return `
                 <div class='cart-item'>
                     <div class='row-img'>
-                        <img class='rowimg' src='${item.image}'>
+                        <img class='rowimg' src='${item.images}'>
                     </div>
                     <p style='font-size:12px;'>${item.title}</p>
                     <h2 style='font-size: 15px;'>P ${item.price}.00</h2>
